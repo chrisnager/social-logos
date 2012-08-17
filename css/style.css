@@ -1,0 +1,110 @@
+@import url("../webfonts/ss-social.css");
+
+
+/* General
+   ------------------------------ */
+
+html {
+    font: 0.625em/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    padding: 0 6%;
+    color: #222;
+    background: #f2f2f2 url(../img/subtle-surface.png);
+}
+a {
+    color: #00aced;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    border-bottom: 1px dotted;
+}
+::selection {
+    background: rgba(255,255,0,0.55);
+}
+
+
+/* Top
+   ------------------------------ */
+
+.intro {
+    font-size: 34px;
+    font-size: 3.4rem;
+    line-height: 1;
+    letter-spacing: -1px;
+    letter-spacing: -0.1rem;
+}
+small {
+    margin-top: 9px;
+    display: block;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #999;
+}
+
+
+/* Buttons
+   ------------------------------ */
+
+[class^="ss"] {
+    margin: 9px 0;
+    border-radius: 6px;
+    padding: 18px 30px;
+    display: block;
+    vertical-align: middle;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+    color: white;
+    background: #eee;
+    background: rgba(0, 0, 0, 0.05) linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+[class^="ss"]:before {
+    padding-right: 6px;
+    padding-right: 0.6rem;
+    vertical-align: middle;
+}
+[class^="ss"]:active,
+[class^="ss"]:hover,
+[class^="ss"]:focus {
+    border: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+}
+[class^="ss"]:active {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.ss {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+[class$="facebook"] { background-color: #3c5a98; }
+[class$="twitter"] { background-color: #00aced; }
+[class$="googleplus"] { background-color: #d64a2d; }
+[class$="youtube"] { background-color: #fe3333; }
+[class$="instagram"] { background-color: #c3af9e; }
+[class$="pinterest"] { background-color: #cb2027; }
+[class$="foursquare"] { background-color: #0cbadf; }
+[class$="github"] { background-color: #454545; }
+
+
+/* Bottom
+   ------------------------------ */
+
+.let-me-know {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+.copyright {
+    margin-top: 30px;
+    font-size: 11px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-style: italic;
+}
